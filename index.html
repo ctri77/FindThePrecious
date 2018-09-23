@@ -5,66 +5,90 @@
 		<meta name="description" content="FindThePrecious.com is a website to serve our master Sauron, come and join us !">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 		<title>Find The Precious</title>
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-		<link rel="stylesheet" type="text/css" href="style.css">
+    	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="style_v8.css">
 	</head>
 	<body>
 		<!-- Header section which contains the navbar and the carousel -->
 		<header>
-			<!-- The future navbar which will be top fixed -->
-			<div>
-				<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top justify-content-around">
-					<a class="navbar-brand logo" href="#">FindThePrecious.com</a>
-					  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
-					    <span class="navbar-toggler-icon"></span>
-					  </button>
-					  <div id="menu" class="collapse navbar-collapse justify-content-around">
-						<ul class="navbar-nav">
-							<li class="nav-item menu_lien"><a class="nav-link" href="#fellows">Fellows</a></li>
-							<li class="nav-item menu_lien"><a class="nav-link" href="#ring">The ring</a></li>
-							<li class="nav-item menu_lien"><a class="nav-link" href="#reward">Get my reward</a></li>
-							<li class="nav-item menu_lien"><a class="nav-link" href="#hunters">Best hunters</a></li>
-							<li class="nav-item menu_lien"><a class="nav-link" href="#army">Join the army</a></li>
-							<li class="nav-item menu_lien"><a class="nav-link" href="#contact">Contact us</a></li>
-						</ul>
-					</div>
-				</nav>
-			</div>	
+			<!-- The navbar is top fixed -->
+			<nav class="barre navbar navbar-expand-sm fixed-top justify-content-around p-0">
+				<div class="container-fluid p-0 m-0">   	
+					<div class="row w-100 no-gutters">     
+						<div class="col-6 col-sm-3">   
+							<a class="navbar-brand logo float-left" href="#"><img src="Images/logo.png" alt="logo FindThePrecious"></a>
+
+
+	                	</div>
+	                	<div class="col-6 col-sm-9">
+						  <!-- Toggler/collapsibe Button -->
+		                	<nav class="navbar navbar-dark justify-content-end">
+			                    <button class="navbar-toggler" data-target="#menu" data-toggle="collapse" type="button">
+			                        <span class="navbar-toggler-icon text-right"></span>
+			                    </button>
+		                	</nav>
+						  	<!-- Navbar links -->
+							<div class="collapse navbar-collapse float-right" id="menu">
+							    <ul class="aniron navbar-nav">
+									<li class="nav-item menu_lien"><a class="typoMenu nav-link" href="#fellows">Fellows</a></li>											
+									<li class="nav-item menu_lien"><a class="typoMenu nav-link" href="#ring">The ring</a></li>						
+									<li class="nav-item menu_lien"><a class="typoMenu nav-link" href="#reward">Reward</a></li>					
+									<li class="nav-item menu_lien"><a class="typoMenu nav-link" href="#hunters">Hunters</a></li>			
+									<li class="nav-item menu_lien"><a class="typoMenu nav-link" href="#army">Join</a></li>						
+									<li class="nav-item menu_lien"><a class="typoMenu nav-link" href="#contact">Contact</a></li>
+							    </ul>
+							  
+		                	</div>
+	                	</div>
+	                </div>	
+                	
+
+				</div>
+			</nav>	
 			<!-- Carousel with 3 pictures --> 
 			<div id="defile" class="carousel slide" data-ride="carousel">
 
 			  <!-- The slideshow -->
 			  <div class="carousel-inner">
 			    <div class="carousel-item active">
-			      <img class="img-fluid" src="http://via.placeholder.com/2000x800" alt="Orcs">	
-			      <div class="carousel-caption text-body">
-	      	    	<p class="titreCarousel">Dangerous fellowship try to destroy the ring</p>
-    				<p>Orcs, Goblins, Balrogs, protect your master Sauron !</p>	
+			      <img class="img-fluid" src="Images/dark_vador.jpg" alt="Orcs">	
+			      <div class="carousel-caption">
+	      	    	<p class="titreCarousel">Sauron is a very good bro,</p>
+    				<blockquote class="blockquote enLigne justify-content-around">
+    					<p>Please help him to find his ring ! </p>
+    					<p class="blockquote-footer"> d.v.</p>
+    				</blockquote>	
 			      </div>
 
 			    </div>
 			    <div class="carousel-item">
-			      <img class="img-fluid" src="http://via.placeholder.com/2000x800" alt="Goblins">
-  			      <div class="carousel-caption text-body">
-	      	    	<p class="titreCarousel">We need you !</p>
-    				<p>Orcs, Goblins, Balrogs, protect your master Sauron !</p>	
+			      <img class="img-fluid" src="Images/dark_vador.jpg" alt="Orcs">	
+			      <div class="carousel-caption">
+	      	    	<p class="titreCarousel">Sauron is a very good bro,</p>
+    				<blockquote class="blockquote enLigne justify-content-around">
+    					<p>Please help him to find his ring ! </p>
+    					<p class="blockquote-footer"> d.v.</p>
+    				</blockquote>	
 			      </div>
 			    </div>
 			    <div class="carousel-item">
-			      <img class="img-fluid" src="http://via.placeholder.com/2000x800" alt="Balrogs">
-  			      <div class="carousel-caption text-body">
-	      	    	<p class="titreCarousel">Come as quick as possible !</p>
-    				<p>Orcs, Goblins, Balrogs, protect your master Sauron !</p>	
+			      <img class="img-fluid" src="Images/dark_vador.jpg" alt="Orcs">	
+			      <div class="carousel-caption">
+	      	    	<p class="titreCarousel">Sauron is a very good bro,</p>
+    				<blockquote class="blockquote enLigne justify-content-around">
+    					<p>Please help him to find his ring ! </p>
+    					<p class="blockquote-footer"> d.v.</p>
+    				</blockquote>	
 			      </div>
 			    </div>
 			  </div>
 
 			  <!-- Left and right controls -->
-			  <a class="carousel-control-prev" href="#defile" data-slide="prev">
-			    <span class="carousel-control-prev-icon"></span>
+			  <a class="carousel-control-prev control-zone" href="#defile" data-slide="prev">
+			    <span class="control-btn aniron">&lt;</span>
 			  </a>
-			  <a class="carousel-control-next" href="#defile" data-slide="next">
-			    <span class="carousel-control-next-icon"></span>
+			  <a class="carousel-control-next control-zone" href="#defile" data-slide="next">
+			    <span class="control-btn aniron">&gt;</span>
 			  </a>
 
 			</div>
@@ -73,147 +97,144 @@
 		<!-- End Header section -->
 		<!-- Fellows section -->
 		<div id="fellows" class="section">
-		  <h1>Fellows wanted dead<span> (or alive if you want to eat them later)</span></h1> 
-		  <br>
+		  <h2 class="aniron ml-3 mr-3 titre1"><span class="tngan deco">Ij </span>Fellows wanted dead<span class="petit"> (or alive if you want to eat them later)</span><span class="tngan deco"> Ij</span></h2> 
+		  
 		  <!-- Nav pills -->
-		  <ul class="nav nav-pills justify-content-center" role="tablist">
+		  <ul class="nav justify-content-center" role="tablist">
 		    <li class="nav-item">
-		      <a class="nav-link active" data-toggle="pill" href="#wanted">Most wanted</a>
+		      <a class="nav-link active orange titrePill mx-1" data-toggle="pill" href="#wanted"><span class="tngan deco vu"> b </span>Most wanted<span class="tngan deco vu"> b </span></a>
 		    </li>
 		    <li class="nav-item">
-		      <a class="nav-link" data-toggle="pill" href="#dangerous">Most dangerous</a>
+		      <a class="nav-link orange mx-1 titrePill" data-toggle="pill" href="#dangerous"><span class="tngan deco vu"> b </span>Most dangerous<span class="tngan deco vu"> b </span></a>
 		    </li>
 		    <li class="nav-item">
-		      <a class="nav-link" data-toggle="pill" href="#captured">Already captured</a>
+		      <a class="nav-link orange mx-1 titrePill" data-toggle="pill" href="#captured"><span class="tngan deco vu"> b </span>Already captured<span class="tngan deco vu"> b </span></a>
 		    </li>
 		  </ul>
 
 		  <!-- Tab panes -->
 		  <div class="tab-content">
-		    <div id="wanted" class="container-fluid tab-pane active"><br>
+		    <div id="wanted" class="container-fluid tab-pane active">
 		    	<div class="row">
-					<div class="col-12 col-sm-6 col-md-4">
-						<div class="card">
+					<div class="col-12 col-sm-4 marge">
+						<div class="card card-img mb-2">
 							<div class="avis">
-								<img class="img-fluid card-img-top" src="http://images.innoveduc.fr/integration_gandalf.png" alt="Gandalf">
+								<img class="d-block mx-auto img-fluid card-img-top" src="Images/gandalf.png" alt="Gandalf">
 								<p class="rewards">reward <span>1000</span> golden coins</p>
 								<p class="name">Gandalf</p>
 							</div>
 							<div class="card-body corps">
-								<h2 class="card-title">Gandalf</h2>
-								<p class="card-text">Small description...</p>
+								<p class="card-text">A very dangerous wizard balrog killer...</p>
 
 							</div>
 						</div>
 					</div>	
-					<div class="col-12 col-sm-6 col-md-4">
-						<div class="card">
+					<div class="col-12 col-sm-4 marge">
+						<div class="card card-img mb-2">
 							<div class="avis">
-								<img class="img-fluid card-img-top" src="https://s19.postimg.cc/xv3l04ieb/frodon_sacquet.jpg" alt="Frodon Sacquet">
-								<p class="rewards">reward <span>500</span> golden coins</p>
-								<p class="name">Frodon</p>
-							</div>
-							<div class="card-body corps">
-								<h2 class="card-title">Frodon Sacquet</h2>
-								<p class="card-text">Small description...</p>
-							</div>
-						</div>
-					</div>	
-					<div class="col-12 col-sm-6 col-md-4">
-						<div class="card">
-							<div class="avis">
-								<img class="img-fluid card-img-top" src="https://s19.postimg.cc/nl160vksz/aragorn.jpg" alt="Aragorn">
-								<p class="rewards">reward <span>250</span><br> golden coins</p>
+								<img class="d-block mx-auto img-fluid card-img-top photo" src="Images/aragorn.png" alt="Aragorn">
+								<p class="rewards">reward <span>800</span> golden coins</p>
 								<p class="name">Aragorn</p>
 							</div>
 							<div class="card-body corps">
-								<h2 class="card-title">Aragorn</h2>
-								<p class="card-text">Small description...</p>
+								<p class="card-text">Sauron's finger says him his sword is dangerous...</p>
+							</div>
+						</div>
+					</div>	
+					<div class="col-12 col-sm-4 marge">
+						<div class="card card-img mb-2">
+							<div class="avis">
+								<img class="d-block mx-auto img-fluid card-img-top photo" src="Images/gimli.png" alt="Gimli">
+								<p class="mort">dead</p>
+								<p class="name suppression">Gimli</p>
+							</div>
+							<div class="card-body corps">								
+								<p class="card-text">A dwarf with a beard and an axe...</p>
 							</div>	
 						</div>
 					</div>
 				</div>
 		    </div>
-		    <div id="dangerous" class="container-fluid tab-pane fade"><br>
+		    <div id="dangerous" class="container-fluid tab-pane fade">
 		    	<div class="row">
-					<div class="col-12 col-sm-6 col-md-4">
-						<div class="card">
+					<div class="col-12 col-sm-4 marge">
+						<div class="card card-img mb-2">
 							<div class="avis">
-								<img class="card-img-top" src="http://via.placeholder.com/200x200" alt="Dangerous 1">	
+								<img class="d-block mx-auto img-fluid photo card-img-top" src="http://via.placeholder.com/200x200" alt="Dangerous 1">	
 								<p class="rewards">reward <span>1500</span><br> golden coins</p>
 								<p class="name">Dangerous 1</p>	
 							</div>
 							<div class="card-body corps">
-								<h2 class="card-title">Dangerous 1</h2>
+								
 								<p class="card-text">Small description...</p>
 							</div>
 						</div>
 					</div>	
-					<div class="col-12 col-sm-6 col-md-4">
-						<div class="card">
+					<div class="col-12 col-sm-4 marge">
+						<div class="card card-img mb-2">
 							<div class="avis">
-								<img src="http://via.placeholder.com/200x200" alt="Dangerous 2">
+								<img class="d-block mx-auto img-fluid photo card-img-top" src="http://via.placeholder.com/200x200" alt="Dangerous 2">
 								<p class="rewards">reward <span>1250</span><br> golden coins</p>
 								<p class="name">Dangerous 2</p>
 							</div>
 							<div class="card-body corps">
-								<h2 class="card-title">Dangerous 2</h2>
+							
 								<p class="card-text">Small description...</p>
 							</div>
 						</div>
 					</div>
-					<div class="col-12 col-sm-6 col-md-4">
-						<div class="card">	
+					<div class="col-12 col-sm-4 marge">
+						<div class="card card-img mb-2">	
 							<div class="avis">	
-								<img src="http://via.placeholder.com/200x200" alt="Dangerous 3">
+								<img class="d-block mx-auto img-fluid photo card-img-top" src="http://via.placeholder.com/200x200" alt="Dangerous 3">
 								<p class="rewards">reward <span>1000</span><br> golden coins</p>
 								<p class="name">Dangerous 3</p>
 							</div>
 							<div class="card-body corps">
-								<h2 class="card-title">Dangerous 3</h2>
+								
 								<p class="card-text">Small description...</p>
 							</div>
 						</div>
 					</div> 
 				</div>
 		    </div>
-		    <div id="captured" class="container-fluid tab-pane fade"><br>
+		    <div id="captured" class="container-fluid tab-pane fade">
 		    	<div class="row">
-					<div class="col-12 col-sm-6 col-md-4">
-						<div class="card">
+					<div class="col-12 col-sm-4 marge">
+						<div class="card card-img mb-2">
 							<div class="avis">
-								<img src="http://via.placeholder.com/200x200" alt="Captured 1">	
+								<img class="d-block mx-auto img-fluid photo card-img-top" src="http://via.placeholder.com/200x200" alt="Captured 1">	
 								<p class="rewards">reward <span>500</span><br> golden coins</p>
 								<p class="name">Captured 1</p>
 							</div>
 							<div class="card-body corps">
-								<h2 class="card-title">Captured 1</h2>
+								
 								<p class="card-text">Small description...</p>
 							</div>
 						</div>
 					</div>	
-					<div class="col-12 col-sm-6 col-md-4">
-						<div class="card">
+					<div class="col-12 col-sm-4 marge">
+						<div class="card card-img mb-2">
 							<div class="avis">
-								<img src="http://via.placeholder.com/200x200" alt="Captured 2">	
+								<img class="d-block mx-auto img-fluid photo card-img-top" src="http://via.placeholder.com/200x200" alt="Captured 2">	
 								<p class="rewards">reward <span>750</span><br> golden coins</p>
 								<p class="name">Captured 2</p>
 							</div>
 							<div class="card-body corps">
-								<h2 class="card-title">Captured 2</h2>
+							
 								<p class="card-text">Small description...</p>
 							</div>
 						</div>
 					</div>
-					<div class="col-12 col-sm-6 col-md-4">
-						<div class="card">
+					<div class="col-12 col-sm-4 marge">
+						<div class="card card-img mb-2">
 							<div class="avis">
-								<img src="http://via.placeholder.com/200x200" alt="Captured 3">	
+								<img class="d-block mx-auto img-fluid photo card-img-top" src="http://via.placeholder.com/200x200" alt="Captured 3">	
 								<p class="rewards">reward <span>950</span><br> golden coins</p>
 								<p class="name">Captured 3</p>
 							</div>
 							<div class="card-body corps">
-								<h2 class="card-title">Captured 3</h2>
+							
 								<p class="card-text">Small description...</p>
 							</div>
 						</div>
@@ -225,193 +246,204 @@
 
 		<!-- End Fellows section -->
 
-		<hr>
-
 		<!-- Reward section -->
-		<section id="reward" class="section mb-5">
+		<section id="reward" class="section">
 			<div>
-				<h1><img class="float-right" src="http://via.placeholder.com/200x200" alt="Reward">I have captured one of them, how to get my reward ?</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				<br>
-				<a class="btn btn-light" href="#contact">Contact us</a>				
+				<h2 class="aniron ml-3 titre text-left"><span class="tngan deco">Ij </span>I have captured one of them, how to get my reward ?<span class="tngan deco"> Ij</span></h2>
+				<p class="pl-5 pr-5 para"><img class="img-coin float-right rounded-circle" src="Images/coin_sauron.png" alt="Coin Sauron">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.</p>
+				<p class="text-center mt-5 mb-0">
+                    <a class="btn-contact btn btn-light" href="#contact">Contact us</a>	
+                </p>    			
 			</div>
 
 		</section>
 		<!-- End Reward section -->
-
-		<hr>
 		
 		<!-- Hunters section -->
 		<section id="hunters" class="container-fluid section">
-			<header>
-				<h1>Best hunters</h1>
-			</header>	
+            <h2 class="aniron ml-3 titre"><span class="tngan deco">Ij </span>Our best hunters<span class="tngan deco"> Ij</span></h2> 
+
 			<div class="row">
-				<div class="col-6 media p-5">
-					<img class="mr-3 mt-3" src="http://via.placeholder.com/100x100" alt="ElvesKiller22">
-					<div class="media-body mt-3">
-						<p>ElvesKiller22</p>
-						<p>2 captures - <a href="#">Profile</a></p>
-						<div>
-							<p><img src="http://via.placeholder.com/16x16" alt="like">Like 68K</p>
-						</div>
-					</div>
+				<div class="col-12 col-sm-6 media pl-4">
+                   
+                    <div>
+                        <img class="img-fluid pr-1 mt-3" src="Images/hunter1.png" alt="ElvesKiller22">
+                    </div>
+                    <div class="media-body mt-3 pl-3">
+                        <p class="titreHunter mb-1">elvesKiller22</p>
+                        <p class="mb-0 titreCapture">2 captures - <a href="#">profile</a></p>
+                        <div>
+                            <p class="like text-center"><img class="pr-1" src="Images/anneau.png" alt="like">12 nase</p>
+                        </div>
+                    </div>
+                  
 				</div>
-				<div class="col-6 media p-5">
-					<img class="mr-3 mt-3" src="http://via.placeholder.com/100x100" alt="Goblin45">
-					<div class="media-body mt-3">
-						<p>Goblin45</p>
-						<p>1 capture - <a href="#">Profile</a></p>
-						<div>
-							<p><img src="http://via.placeholder.com/16x16" alt="like">Like 68K</p>
-						</div>
-					</div>
+				<div class="col-12 col-sm-6 media pl-4">
+                  
+                    <div>
+                        <img class="img-fluid pr-1 mt-3" src="Images/hunter2.png" alt="Goblin45">
+                    </div>
+                    <div class="media-body mt-3 pl-3">
+                        <p class="titreHunter mb-0">goblin45</p>
+                        <p class="mb-0 titreCapture">1 capture - <a href="#">profile</a></p>
+                        <div>
+                            <p class="like text-center"><img class="pr-1" src="Images/anneau.png" alt="like">18 nase</p>
+                        </div>
+                    </div>
+                 
 				</div>
 			</div>
 		</section>
 		<!-- End Hunters section -->
 
-		<hr>
-
 		<!-- The ring section -->
 		<section id="ring" class="section">
 			<header>
-				<h1>About the ring</h1>
+				<h2 class="aniron ml-3 titre"><span class="tngan deco">Ij </span>About the ring<span class="tngan deco"> Ij</span></h2>
 			</header>
-			<div class="card">
-				<div class="card-header">
+			<div class="card mx-4">
+				<div class="card-header coin aniron">
 					<p>Ring Capabilities</p>
 				</div>	
 				<!-- Table with one caption, 2 columns and 4 rows (one for the headers and 3 for the elements) -->
-				<div class="card-body">
+				<div class="card-body bg-table">
 					<div class="table-responsive">
-						<p>What can our master Sauron do with the ring ?</p>
-						<table class="table table-striped table-bordered">
+						<p class="lib-tab">What can our master Sauron do with the ring ?</p>
+						<table class="table">
 							
-							<thead class="table-secondary">
+							<thead>
 								<tr>
-									<th scope="col">Feature</th>
-									<th scope="col">Description</th>
+									<th class="titre-tab aniron" scope="col">Feature</th>
+									<th class="titre-tab aniron" scope="col">description</th>
 								</tr>
 							</thead>
 
 							<tbody>
-								<tr>
-									<td>Main</td>
-									<td>One ring to rules them all</td>
+								<tr class="trait-item">
+									<td class="pl-4 aniron item-tab">Main</td>
+									<td class="pl-4 aniron item-tab">One ring to rules them all</td>
 								</tr>
-								<tr>
-									<td>Invisibility</td>
-									<td>You can't see me</td>
+								<tr class="trait-item">
+									<td class="pl-4 aniron item-tab">Invisibility</td>
+									<td class="pl-4 aniron item-tab">You can't see me</td>
 								</tr>
-								<tr>
-									<td>Power</td>
-									<td>Destroy the world</td>
+								<tr class="trait-item">
+									<td class="pl-4 aniron item-tab">Power</td>
+									<td class="pl-4 aniron item-tab">Destroy the world</td>
 								</tr>
 							</tbody>
 						</table>
 					</div>
 				</div>
 			</div>
-			<div class="card mt-3">
+			<div class="card mx-4 mt-3">
 				<!-- Title of the panel -->
-				<div class="card-header">
+				<div class="card-header aniron">
 					<p>Why the ring is awesome ?</p>
 				</div>
 				<!-- Here a quote of our friend Gollum -->
-				<div class="card-body">
+				<div class="card-body bg-table">
 					<blockquote class="text-center">
-						<p><img class="img-fluid rounded-circle float-right" src="http://via.placeholder.com/110x110" alt="Gollum">My precioooooossssss ! Hrk Hrk, we want our preeciooooouuusssss !!</p>
-						<footer class="text-center">Gollum</footer>
+						<p class="lib-gollum">My precioooooossssss ! Hrk Hrk, we want our preeciooooouuusssss !!<img class="img-gollum img-fluid rounded-circle float-right" src="Images/gollum2.png" alt="Gollum"></p>
+						<footer class="text-center blockquote-footer">Gollum</footer>
 						
 					</blockquote>
 				</div>
 			</div>
 		</section>
 		<!-- End The ring section -->
-
-		<hr>
-		
+	
 		<!-- Army section -->
-		<section id="army" class="section">
+		<section id="army" class="section container-fluid">
 			<header>
-				<h1>Join Mordor Army, we need you !</h1>	
+				<h2 class="aniron ml-3 titre"><span class="tngan deco">Ij </span>Join Mordor army, we need you !<span class="tngan deco"> Ij</span></h2>	
 			</header>
-			<div>
+			<div class="row">
+				<div class="col-12 col-sm-7">
+                    <p class="pl-3 pr-3 para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="col-12 col-sm-5">
+                    <img class="img-army img-fluid mx-auto d-block" src="Images/army.png" alt="The army">
+                </div>
 				
-				<p><img class="float-left mr-3" src="http://via.placeholder.com/100x100" alt="The army">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				<a href="http://SauronRulesThemAll.com">More info on SauronRulesThemAll.com</a>
-			</div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12 col-sm-5">
+                    <img class="img-fluid img-army mx-auto d-block" src="Images/weneedyou-1.png" alt="We need you">
+                </div>
+                <div class="mt-5 col-12 col-sm-7 text-center">
+                    <p class="aniron more">More info on</p>
+                    <a class="like aniron px-1 py-1 moreLien" href="http://SauronRulesThemAll.com">SAURONRULESTHEMALL.COM</a>
+                </div>
+            </div>
 		</section>
 		<!-- End Army section -->
 
-		<hr>
-
 		<!-- Contact section -->
-		<section id="contact" class="section">
+		<section id="contact" class="section container-fluid">
 			<header>
-				<h1>Contact us</h1>
-			</header>	
-			<!-- when the form is submitted, the form-data will be send to the file action_page.php with the method "get" because there is no sensitive data -->
-			<form action="/action_page.php" method="get">
-				<fieldset>
-					<!-- the labels will be hidden -->
-					<div class="form-group">
-						<label class="sr-only" for="email">Email : </label>
-						<!-- The icon email will be in the background -->
-						<input class="form-control" id="email" type="email" name="email" required autofocus placeholder="Email">
-					</div>
-					<div class="form-group">
-						<label class="sr-only" for="address">Address : </label>
-						<!-- The icon address will be in the background -->
-						<input class="form-control" id="address" type="text" name="address" placeholder="Address">
+				<h2 class="aniron ml-3 titre"><span class="tngan deco">Ij </span>Contact us<span class="tngan deco"> Ij</span></h2>	
+            </header>	
+            <div class="row">
+                <div class="col-12 col-sm-6">
+                    <!-- when the form is submitted, the form-data will be send to the file action_page.php with the method "get" because there is no sensitive data -->
+                    <form action="/action_page.php" method="get">
+                        <fieldset class="aniron">
+                            <!-- the labels will be hidden -->
+                            <div class="form-group mb-3">
+                                <label class="sr-only" for="email">Email : </label>
+                                <!-- The icon email will be in the background -->
+                                <input class="form-control" id="email" type="email" name="email" required autofocus placeholder="@">
+                            </div>
+                            <div class="form-group mb-3">
+                                <label class="sr-only" for="address">Address : </label>
+                                <!-- The icon address will be in the background -->
+                                <input class="form-control" id="address" type="text" name="address" placeholder="Address">
 
-					</div>
-					<div class="form-group">
-						<label class="sr-only" for="object">Object of the message : </label>
-						<select class="form-control" id="object" name="object">
-							<option value="seen" selected>I have seen one of them</option>	
-							<option value="reward">To get my reward</option>
-							<option value="army">I want to join the army</option>
-						</select>
-					</div>
-					<textarea class="form-control" name="message" placeholder="Your Message" required></textarea>
-					<button type="submit">Send</button>
-				</fieldset>
-			</form>
+                            </div>
+                            <div class="form-group mb-3">
+                                <label class="sr-only" for="object">Object of the message : </label>
+                                <select class="form-control" id="object" name="object">
+                                    <option value="seen" selected>I have seen one of them</option>	
+                                    <option value="reward">To get my reward</option>
+                                    <option value="army">I want to join the army</option>
+                                </select>
+                            </div>
+                            <textarea class="form-control" name="message" placeholder="Your Message" required rows="8"></textarea>
+                            <p class="text-center mt-4 mb-3"><button id="btn-send" class="btn-contact btn btn-light" type="submit">send</button></p>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <img class="img-fluid mx-auto d-block" src="Images/map.png" alt="Map">
+                </div>
+            </div>
 		</section>
 		<!-- End Contact section -->
-		<hr>
+	
 		<!-- Footer section -->
-		<footer class="container-fluid">
+		<footer id="pied" class="container-fluid pt-3 mx-0 px-0">
 			<div class="row">
-				<div class="col-6 col-sm-4">
-					<ul>
-						<li><a href="#">About us</a></li>
-						<li><a href="#">Fellows</a></li>
+				<div class="col-6 col-sm-4 pl-2">
+					<ul class="liste aniron text-left">
+						<li class="pb-2"><a href="#">About us</a></li>
+						<li class="pb-2"><a href="#">Fellows</a></li>
 						<li><a href="#">Join our army</a></li>
 					</ul>	
 				</div>
-				<div class="col-6 col-sm-4">
-					<ul>
-						<li><a href="#">FAQ</a></li>
-						<li><a href="#">Reward conditions</a></li>
+				<div class="col-6 col-sm-4 pl-2">
+					<ul class="liste aniron text-left">
+						<li class="pb-2"><a href="#">FAQ</a></li>
+						<li class="pb-2"><a href="#">Reward conditions</a></li>
 						<li><a href="#">Legal mentions</a></li>
 					</ul>
 				</div>
-				<div class="text-center col-12 col-sm-4">
-					<a href="http://Sauron4Ever.com">Sauron4Ever.com</a>
-					<p>Follow him also on <a href="#">Twitter</a></p>
+				<div class="forever aniron text-center col-12 col-sm-4 pl-4">
+					<a class="pb-2" href="http://Sauron4Ever.com">sauron4ever.com</a>
+                    <p>Follow him also on <a href="#">Twitter</a></p>
+                    <a class="pr-1 mx-auto d-block" href="#"><img src="Images/logo.png" alt="logo FindThePrecious"></a>
 				</div>
 			</div>
 		</footer>
@@ -423,6 +455,9 @@
 	  	$('.navbar-collapse .navbar-nav > .nav-item > .nav-link').click(function(){
 	    $('.collapse.show').removeClass('show').css('height', '0');
 	    });
+	  	$('#btn-send').click(function() {
+	  		alert("Your message has been seen. We will contact you as soon as possible !");
+	  	});
 	  </script>
 	</body>
 </html>
