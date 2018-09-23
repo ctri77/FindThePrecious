@@ -1,48 +1,1098 @@
+/********** General **********/
+
+@font-face {
+	font-family: "Aniron";
+	src: url("Fonts/anirb___.ttf") format("truetype"),
+		 url("Fonts/anirm___.ttf") format("truetype"),
+		 url("Fonts/anicb___.ttf") format("truetype"),
+		 url("Fonts/anicm___.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Partybusiness";
+	src: url("Fonts/partybusiness.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Tngan";
+    src: url("Fonts/tngan.ttf") format("truetype");
+}
+
+body {
+	font-family: Partybusiness, sans-serif;
+}
+.aniron {
+    font-family: Aniron, AnironC, sans-serif;
+    
+}
+
+.section {
+    margin-top: 0px;
+    padding-top: 75px;
+    padding-bottom: 80px;
+}
+.tngan {
+    font-family: Tngan, sans-serif;
+    color: #fe661d;
+}
+
+
+
+
+
+/********************* Media Queries ********************/
+
+/*XS Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .para {
+        font-size: 1.25rem;
+    }
+/*********** XS Navbar **********/	
+
+	.logo {
+		margin-right: 0rem;
+		margin-left: 0.75rem;
+		padding-top: 1.25rem;
+	}
+
+	.logo img {
+		width: 100%;
+	}
+
+	.typoMenu {
+		color: white;
+		font-size: 1rem;
+		padding-bottom: 1rem;
+	}
+	.menu_lien {
+		padding-right: 0.5rem;
+		padding-left: 0.5rem;
+	}
+
+/*********** XS Carousel **********/	
+    .control-btn {
+		font-size: 3rem;
+	}
+
+
+	.titreCarousel {
+		font-size: 1.25rem;
+	}
+	.blockquote {
+		font-size: 1rem;
+
+    }
+    .carousel-caption {
+        margin-bottom: 0px;
+        position: absolute;
+        bottom: 0px;
+
+    }
+
+/*********** XS Fellows section **********/	    
+    
+ 
+    .petit {
+        font-size: 0.5rem;
+        
+    }
+    .deco {
+        position: relative;
+        bottom: 0.5rem;
+    }
+    .titre1 {
+		margin-bottom: 1rem;
+		font-size: 1.25rem;
+	}
+    .titre, .card-header {
+        font-size: 1.2rem;
+    }
+    .titre {
+    	padding-bottom: 20px;
+    }
+  
+    .titrePill {
+        font-size: 0.8rem;
+	}
+	
+    .card-text {
+	    font-size: 2rem;
+    }
+  
+
+	.avis img {
+		width: 65%;
+		height: 300px;
+	}
+	.avis {
+		height: 300px;
+	}
+	.rewards {
+		font-size: 1.75rem;
+		opacity: 0.8;
+		text-align: center;
+		vertical-align: middle;
+		background-color: rgb(255, 255, 255);
+		z-index: 2;
+		position: relative;
+		top: -280px;
+		left: 15%;
+		right: 0px;
+		width: 60%;
+		height: 100px;
+		border-radius: 15px;
+		padding: 3% 10%;
+		margin: 3% 5%;
+		box-sizing: border-box;
+		-webkit-transition: all 0.1s linear;
+		-moz-transition: all 0.1s linear;
+		-o-transition: all 0.1s linear;
+		transition: all 0.1s linear;
+	}
+	.name {
+		font-size: 3rem;
+		color: white;
+		position: relative;
+		top: -280px;
+		z-index: 2;
+		text-align: center;
+		-webkit-transition: all 0.1s linear;
+		-moz-transition: all 0.1s linear;
+		-o-transition: all 0.1s linear;
+		transition: all 0.1s linear;
+	}
+	.avis:hover > .name {
+		font-size: 2em;
+		top: -220px;
+		margin-bottom: 180px;
+	}
+	.mort {
+		font-size: 3rem;
+	    color: #ff6702;
+	    opacity: 0.8;
+		text-align: center;
+		vertical-align: middle;
+		z-index: 2;
+		position: relative;
+		top: -300px;
+		left: 70px;
+		right: 0px;
+		width: 60%;
+		height: 100px;
+		padding: 3% 10%;
+		margin: 3% 5%;
+		-webkit-transition: all 0.1s linear;
+		-moz-transition: all 0.1s linear;
+		-o-transition: all 0.1s linear;
+		transition: all 0.1s linear;
+	}
+	.orange:hover  {
+    	padding-left: 0.5rem;
+    	padding-right: 0.5rem;
+    
+    }
+    .img-coin {
+        width: 30%;
+    }
+
+/*********** XS Hunters section **********/
+
+    .titreHunter {
+        font-size: 2rem;
+        
+    }
+    .titreCapture {
+        font-size: 1.25rem;
+	}
+	
+    .like {
+    	width: 50%;
+    	font-size: 1rem;
+    }
+
+    .section {
+        margin-top: 0px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+/*********** XS Ring section **********/
+    .img-gollum {
+	    display: none;
+
+	}
+    .titre-tab {
+        
+        font-size: 1rem;	
+    }
+    .item-tab {
+        font-size: 0.6rem;
+    
+    }
+    .lib-gollum, .lib-tab {
+        font-size: 1.25rem;
+    }
+
+
+
+/*********** XS Army section **********/
+    .forever img {
+        width: 50%;
+    }
+    .forever {
+        font-size: 0.75rem;
+    }
+    .moreLien {
+    	font-size: 0.75rem;
+    }
+
+
+
+/*********** XSContact section **********/  
+   
+    #contact img {
+        width: 75%;
+    }
+
+    .liste {
+        padding-left: 1rem;
+        
+    }
+
+    #pied {
+        font-size: 0.75rem;
+    }
+    .btn-contact {
+    	font-size: 1rem;
+    }
+
+}
+
+/* SM Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+/*********** SM Navbar **********/
+	.logo {
+		padding-top: 0.75rem;
+
+		margin-right: 0rem;
+		margin-left: 0.75rem;
+		
+	}
+	.logo img {
+		width: 100%;
+	}
+	#menu {
+		margin-top: -0.5rem;
+	}
+
+	.typoMenu {
+		color: white;
+		font-size: 0.6rem;
+	}
+
+	.menu_lien {
+		padding: 0rem 0rem;
+		font-size: 0.75rem;
+	}
+
+/*********** SM Carousel **********/
+    .control-btn {
+		font-size: 2.5rem;
+	}	
+
+	.titreCarousel {
+		font-size: 2.25rem;
+	}
+	.blockquote {
+		font-size: 1rem;
+
+    }
+    .carousel-caption {
+        margin-bottom: 15px;
+    }
+
+/*********** SM Fellows Section **********/
+
+    .petit {
+        font-size: 0.5rem;
+        
+    }
+    .deco {
+        position: relative;
+        bottom: 0.5rem;
+    }
+    .titre, .card-header, .titre1 {
+        font-size: 1.5rem;
+    }
+    .titre1 {
+    	margin-bottom: 1rem;
+    }
+    .titrePill {
+        font-size: 1.25rem;
+	}
+	
+	.titre {
+		margin-bottom: 3rem;
+
+	}
+	
+    .card-text {
+	    font-size: 1rem;
+	}
+	.card-img {
+		height: 320px;
+	}
+
+	.avis img {
+		width: 100%;
+		height: 250px;
+	}
+	.avis {
+		height: 250px;
+	}
+	.rewards {
+		font-size: 1.25rem;
+		opacity: 0.8;
+		text-align: center;
+		vertical-align: middle;
+		background-color: rgb(255, 255, 255);
+		z-index: 2;
+		position: relative;
+		top: -220px;
+		left: 0px;
+		right: 0px;
+		width: 90%;
+		height: 80px;
+		border-radius: 15px;
+		padding: 3% 10%;
+		margin: 3% 5%;
+		box-sizing: border-box;
+		-webkit-transition: all 0.1s linear;
+		-moz-transition: all 0.1s linear;
+		-o-transition: all 0.1s linear;
+		transition: all 0.1s linear;
+	}
+	.name {
+		font-size: 2rem;
+		color: white;
+		position: relative;
+		top: -220px;
+		z-index: 2;
+		text-align: center;
+		-webkit-transition: all 0.1s linear;
+		-moz-transition: all 0.1s linear;
+		-o-transition: all 0.1s linear;
+		transition: all 0.1s linear;
+	}
+	.avis:hover > .name {
+		font-size: 1.25em;
+		top: -140px;
+		margin-bottom: 180px;
+	}
+	.mort {
+		font-size: 3rem;
+	    color: #ff6702;
+	    opacity: 0.8;
+		text-align: center;
+		vertical-align: middle;
+		z-index: 2;
+		position: relative;
+		top: -190px;
+		left: 0px;
+		right: 0px;
+		width: 90%;
+		height: 80px;
+		padding: 3% 10%;
+		margin: 3% 5%;
+		-webkit-transition: all 0.1s linear;
+		-moz-transition: all 0.1s linear;
+		-o-transition: all 0.1s linear;
+		transition: all 0.1s linear;
+	}
+  	.marge {
+  		padding-left: 5px;
+  		padding-right: 5px;
+      }
+
+/*********** SM Hunters Section **********/
+    .titreHunter {
+        font-size: 1.2rem;
+        
+    }
+    .titreCapture {
+        font-size: 0.7rem;
+    }
+    .like {
+    	width: 90%;
+    }
+    .para, .lib-tab, .lib-gollum {
+        font-size: 1.25rem;
+    }
+
+/*********** SM Ring Section **********/   
+
+	.titre-tab {
+		font-size: 1.5rem;
+	} 
+	.item-tab {
+		font-size: 0.75rem;
+	}
+
+	.moreLien {
+		font-size: 0.75rem;
+	}
+/*********** SM Army Section **********/    
+    .img-army {
+        width: 100%;
+    }
+
+    .form-control {
+        font-size: 0.75rem;
+	}
+	#pied img {
+		width: 75%;
+	}
+	.liste, .forever {
+		font-size: 0.75rem;
+	}
+
+/*********** SM Contact Section **********/    	
+
+	.btn-contact {
+		font-size: 1.5rem;
+	}
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+/*********** MD Navbar **********/ 	
+	.menu_lien {
+		padding-right: 0rem;
+		padding-left: 0rem;
+		font-size: 0.75rem;
+	}
+	.logo {
+		font-size: 1rem;
+		padding-top: 0.75rem;
+		margin-right: 0rem;
+		margin-left: 0.75rem;
+	}
+
+	.logo img {
+		width: 100%;
+	}
+	#menu {
+		margin-top: -0.75rem;
+	}
+
+	.typoMenu {
+		color: white;
+		font-size: 0.8rem;
+	}
+
+/*********** MD Carousel **********/ 		
+	.titreCarousel {
+		font-size: 3rem;
+	}
+	.blockquote {
+		font-size: 1.75rem;
+
+    }
+    .carousel-caption {
+        margin-bottom: 50px;
+    }
+
+/*********** MD Fellows Section **********/ 	    
+
+    .petit {
+        font-size: 0.75rem;
+        
+    }
+    .deco {
+        position: relative;
+        bottom: 0.75rem;
+    }
+    .titre, .card-header, .titre1 {
+        font-size: 1.25rem;
+    }
+    .titrePill {
+        font-size: 1.25rem;
+	}
+	.titre {
+		margin-bottom: 3.5rem;
+	}
+	.titre1 {
+		margin-bottom: 1rem;
+	}
+    .card-text {
+	    font-size: 1.5rem;
+	}
+	.card-img {
+		height: 400px;
+	}
+	.avis img {
+		width: 100%;
+		height: 250px;
+	}
+	.avis {
+		height: 250px;
+	}
+	.rewards {
+		font-size: 1.25rem;
+		opacity: 0.8;
+		text-align: center;
+		vertical-align: middle;
+		background-color: rgb(255, 255, 255);
+		z-index: 2;
+		position: relative;
+		top: -250px;
+		left: 10%;
+		right: 0px;
+		width: 75%;
+		height: 80px;
+		border-radius: 15px;
+		padding: 3% 10%;
+		margin: 3% 5%;
+		box-sizing: border-box;
+		-webkit-transition: all 0.1s linear;
+		-moz-transition: all 0.1s linear;
+		-o-transition: all 0.1s linear;
+		transition: all 0.1s linear;
+	}
+	.name {
+		font-size: 3rem;
+		color: white;
+		position: relative;
+		top: -225px;
+		z-index: 2;
+		text-align: center;
+		-webkit-transition: all 0.1s linear;
+		-moz-transition: all 0.1s linear;
+		-o-transition: all 0.1s linear;
+		transition: all 0.1s linear;
+	}
+	.avis:hover > .name {
+		font-size: 2em;
+		top: -150px;
+		margin-bottom: 180px;
+	}
+	.mort {
+		font-size: 3rem;
+	    color: #ff6702;
+	    opacity: 0.8;
+		text-align: center;
+		vertical-align: middle;
+		z-index: 2;
+		position: relative;
+		top: -250px;
+		left: 25px;
+		right: 0px;
+		width: 75%;
+		height: 80px;
+		padding: 3% 10%;
+		margin: 3% 5%;
+		-webkit-transition: all 0.1s linear;
+		-moz-transition: all 0.1s linear;
+		-o-transition: all 0.1s linear;
+		transition: all 0.1s linear;
+    }
+
+/*********** MD Hunter Section **********/ 	
+    
+	.titreHunter {
+	    font-size: 1.75rem;
+	    
+	}
+	.titreCapture {
+	    font-size: 1rem;
+	}
+	.like {
+		width: 60%;
+	}
+
+
+/*********** MD Ring Section **********/
+	.titre-tab {
+		font-size: 1.25rem;
+	}
+
+	.para, .lib-tab, .lib-gollum {
+		font-size: 1.1rem;
+	}
+
+/*********** MD Army Section **********/ 	    
+	.img-army {
+	    width: 70%;
+	}
+	#pied img {
+		width: 65%;
+	}
+	.liste, .forever {
+		font-size: 0.75rem;
+	}
+	.para {
+		font-size: 1.25rem;
+	}
+	.control-btn {
+		font-size: 5rem;
+	}
+	.like {
+		font-size: 1rem;
+	}
+
+/*********** MD Contact Section **********/ 
+
+	.btn-contact {
+		font-size: 1.5rem;
+	}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+/*********** LG Navbar **********/ 		
+	.menu_lien {
+		padding-right: 0.75rem;
+		padding-left: 0.75rem;
+		font-size: 1rem;
+	}
+	.logo {
+		font-size: 1.25rem;
+		padding-top: 0.75rem;
+		margin-right: 0rem;
+		margin-left: 0.75rem;
+	}
+
+	.logo img {
+		width: 100%;
+	}
+	#menu {
+		margin-top: -0.75rem;
+	}
+
+	.typoMenu {
+		color: white;
+		font-size: 0.9rem;
+	}
+
+/*********** LG Carousel **********/ 		
+	.titreCarousel {
+		font-size: 4rem;
+	}
+	.blockquote {
+		font-size: 2.5rem;
+
+    }
+	    
+    .carousel-caption {
+        margin-bottom: 100px;
+    }
+
+/*********** LG Fellows Section **********/     
+
+    .petit {
+        font-size: 1rem;
+        
+    }
+    .deco {
+        position: relative;
+        bottom: 1rem;
+    }
+    .titre, .card-header, .titre1 {
+        font-size: 1.45rem;
+    }
+
+	.titre {
+		margin-bottom: 3.5rem;
+	}  
+	.titre1 {
+		margin-bottom: 1rem;
+	}  
+    .titrePill {
+        font-size: 1.25rem;
+    }
+    .card-text {
+	    font-size: 2rem;
+	}
+	.card-img {
+		height: 470px;
+	}
+	.avis img {
+		width: 100%;
+		height: 300px;
+	}
+	.avis {
+		height: 300px;
+	}
+	.rewards {
+		font-size: 1.5rem;
+		opacity: 0.8;
+		text-align: center;
+		vertical-align: middle;
+		background-color: rgb(255, 255, 255);
+		z-index: 2;
+		position: relative;
+		top: -290px;
+		left: 25px;
+		right: 0px;
+		width: 75%;
+		height: 80px;
+		border-radius: 15px;
+		padding: 3% 10%;
+		margin: 3% 5%;
+		box-sizing: border-box;
+		-webkit-transition: all 0.1s linear;
+		-moz-transition: all 0.1s linear;
+		-o-transition: all 0.1s linear;
+		transition: all 0.1s linear;
+	}
+	.name {
+		font-size: 3rem;
+		color: white;
+		position: relative;
+		top: -225px;
+		z-index: 2;
+		text-align: center;
+		-webkit-transition: all 0.1s linear;
+		-moz-transition: all 0.1s linear;
+		-o-transition: all 0.1s linear;
+		transition: all 0.1s linear;
+	}
+	.avis:hover > .name {
+		font-size: 2em;
+		top: -150px;
+		margin-bottom: 180px;
+	}
+	.mort {
+		font-size: 3rem;
+	    color: #ff6702;
+	    opacity: 0.8;
+		text-align: center;
+		vertical-align: middle;
+		z-index: 2;
+		position: relative;
+		top: -290px;
+		left: 25px;
+		right: 0px;
+		width: 75%;
+		height: 80px;
+		padding: 3% 10%;
+		margin: 3% 5%;
+		-webkit-transition: all 0.1s linear;
+		-moz-transition: all 0.1s linear;
+		-o-transition: all 0.1s linear;
+		transition: all 0.1s linear;
+    }
+
+/*********** LG Hunters Section **********/      
+    .titreHunter {
+        font-size: 3rem;
+        
+    }
+    .titreCapture {
+        font-size: 1.5rem;
+    }
+    .like {
+    	width: 30%;
+    }
+
+/*********** LG Ring Section **********/      
+	.para, .lib-tab, .lib-gollum {
+		font-size: 1.75rem;
+	}
+/*********** LG Army Section **********/      
+    .img-army {
+        width: 70%;
+    }
+    .control-btn {
+		font-size: 5rem;
+	}
+	.like {
+		font-size: 1rem;
+	}
+
+/*********** LG Contact Section **********/  	
+	.btn-contact {
+		font-size: 1.5rem;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+/*********** XL Navbar **********/  	
+	.menu_lien {
+		
+		padding-right: 1.5rem;
+		padding-left: 1.5rem;
+		font-size: 1rem;
+	}
+
+	.logo {
+		font-size: 1.25rem;
+		padding-top: 0.75rem;
+		margin-right: 0rem;
+		margin-left: 0.75rem;
+	}
+
+	.logo img {
+		width: 100%;
+	}
+	#menu {
+		margin-top: -0.75rem;
+	}
+
+	.typoMenu {
+		color: white;
+		font-size: 1rem;
+
+	}
+
+/*********** XL Carousel  **********/ 	
+
+	.titreCarousel {
+		font-size: 4.75rem;
+	}
+	.blockquote {
+		font-size: 2.5rem;
+
+    }
+    .carousel-caption {
+        margin-bottom: 145px;
+    }
+    .petit {
+        font-size: 1rem;
+        
+    }
+
+/*********** XL Fellows Section  **********/  
+
+    .deco {
+        position: relative;
+        bottom: 1rem;
+    }
+    .titre, .card-header, .titre1 {
+        font-size: 1.75rem;
+    }
+
+    .titre {
+    	margin-bottom: 3.5rem;
+    }
+	.titre1 {
+		margin-bottom: 1rem;
+	} 
+    .titrePill {
+        font-size: 1.5rem;
+    }
+    .card-text {
+	    font-size: 2.5rem;
+	}
+	.card-img {
+		height: 700px;
+	}
+	.avis img {
+
+		width: 100%;
+		height: 500px;
+	}
+	.avis {
+		height: 500px;
+	}
+	.rewards {
+		font-size: 2.5rem;
+		opacity: 0.8;
+		text-align: center;
+		vertical-align: middle;
+		background-color: rgb(255, 255, 255);
+		z-index: 2;
+		position: relative;
+		top: -480px;
+		left: 0px;
+		right: 0px;
+		width: 90%;
+		height: 150px;
+		border-radius: 15px;
+		padding: 3% 10%;
+		margin: 3% 5%;
+		box-sizing: border-box;
+		-webkit-transition: all 0.1s linear;
+		-moz-transition: all 0.1s linear;
+		-o-transition: all 0.1s linear;
+		transition: all 0.1s linear;
+	}
+	.name {
+		font-size: 3.5rem;
+		color: white;
+		position: relative;
+		top: -450px;
+		z-index: 2;
+		text-align: center;
+		-webkit-transition: all 0.1s linear;
+		-moz-transition: all 0.1s linear;
+		-o-transition: all 0.1s linear;
+		transition: all 0.1s linear;
+	}
+	.avis:hover > .name {
+		font-size: 2em;
+		top: -300px;
+		margin-bottom: 180px;
+	}
+	.mort {
+		font-size: 3.5rem;
+	    color: #ff6702;
+	    opacity: 0.8;
+		text-align: center;
+		vertical-align: middle;
+		z-index: 2;
+		position: relative;
+		top: -480px;
+		left: 0px;
+		right: 0px;
+		width: 90%;
+		height: 150px;
+		padding: 3% 10%;
+		margin: 3% 5%;
+		-webkit-transition: all 0.1s linear;
+		-moz-transition: all 0.1s linear;
+		-o-transition: all 0.1s linear;
+		transition: all 0.1s linear;
+    }
+
+/*********** XL Hunters Section  **********/      
+    .titreHunter {
+        font-size: 4rem;
+        
+    }
+    .titreCapture {
+        font-size: 1.5rem;
+    }
+    .like {
+    	width: 25%;
+    }
+
+/*********** XL Ring Section  **********/      
+    .titre-tab {
+        color: black;
+        font-size: 35px;	
+    }
+    .lib-tab, .lib-gollum, .para {
+        font-size: 2rem;
+    }
+
+/*********** XL Army Section  **********/      
+    .img-army {
+        width: 70%;
+    }
+    .control-btn {
+		font-size: 5rem;
+	}
+	.like {
+		font-size: 1rem;
+	}
+
+/*********** XL Contact Section  **********/  	
+	.btn-contact {
+		font-size: 1.5rem;
+	}
+}
+
+/********** Navbar on the top **********/
+.barre, .card-header {
+	background-color: #fe661d;	
+
+}
+.typoMenu {
+		
+	padding-top: 0rem;
+	margin-top: 0.5rem;
+}
+
+.typoMenu:hover {
+	color: white;
+	border-bottom: 5px solid white;
+}
+
+.separation {
+	border-right: 2px solid white;
+}
+
+
+/********** Carousel **********/
 #defile {
-	margin-top: 70px;
+	margin-top: 40px;
 }
 
 .titreCarousel {
-	font-size: 2rem;
-}
-.section {
-	margin-top: 30px;
+	color: white;
 }
 
-#wanted1, #dangerous1, #captured1 {
+
+.blockquote p {
+	color: white;
+}
+
+.enLigne {
 	display: flex;
-	margin-top: 0px;
 }
 
-figure {
-	width: calc(100% / 3);
+
+
+.control-zone {
+	width: 5%
 }
 
-.avis {
-	height: 600px;
+
+
+
+/********** Section Fellows **********/
+#wanted, #dangerous, #captured {
+	margin-top: 3rem;
+}
+#fellows, #hunters, #army {
+    background-image: url("Images/bg_light.png");
 }
 
-.rewards {
+#fellows h1 {
+    padding-bottom: 30px;
+}
 
-	opacity: 0.8;
-	text-align: center;
-	vertical-align: middle;
-	background-color: rgb(255, 255, 255);
-	z-index: 2;
-	position: relative;
-	top: -550px;
-	left: 0px;
-	right: 0px;
-	width: 90%;
-	height: 150px;
-	border-radius: 15px;
-	padding: 3% 10%;
-	margin: 3% 5%;
-	box-sizing: border-box;
-	-webkit-transition: all 0.1s linear;
-	-moz-transition: all 0.1s linear;
-	-o-transition: all 0.1s linear;
-	transition: all 0.1s linear;
+.orange {
+    color: darkgrey;
+    
+}
+
+.nav-pills .nav-link .active {
+    background-color: none;
+
+}
+
+.orange:hover  {
+    color: #ff6702;
+    border-bottom: 0.25rem solid #ff6702;
+    
+}
+.orange > .vu {
+    display: none;
+}
+.orange:hover > .vu {
+    display: contents;
+}
+
+
+.card-img {
+    border: 0.75rem solid black;
+}
+.corps {
+    background-color: black;
+    color: darkgrey;
+    padding: 10px 10px;
+
+}
+.suppression {
+    text-decoration: line-through #ff6702;
 }
 
 .rewards span {
@@ -53,9 +1103,12 @@ figure {
 	visibility: hidden;
 }
 
+.avis:hover > .mort {
+	visibility: hidden;
+}
 .avis img {
-	width: 100%;
-	height: 600px;
+	
+	border: 5px solid black;
 	z-index: 1;
 	opacity: 0.6;
 	-webkit-transition: all 0.1s linear;
@@ -68,26 +1121,6 @@ figure {
 	opacity: 1;
 }
 
-
-.name {
-
-	color: white;
-	position: relative;
-	top: -500px;
-	z-index: 2;
-	text-align: center;
-	-webkit-transition: all 0.1s linear;
-	-moz-transition: all 0.1s linear;
-	-o-transition: all 0.1s linear;
-	transition: all 0.1s linear;
-}
-
-.avis:hover > .name {
-	font-size: 2em;
-	top: -300px;
-	margin-bottom: 180px;
-}
-
 .descrip {
 	margin-top: 0px;
 }
@@ -98,88 +1131,121 @@ figure {
 	margin-top: 0px;
 }
 
-/*Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) {
-	.menu_lien {
-		padding-right: 0.5rem;
-		padding-left: 0.5rem;
-	}
-	.name {
-		font-size: 5rem;
-	}
-	.rewards {
-		font-size: 3rem;
-	}
+/********** Section Reward **********/
+
+#reward, #ring, #contact {
+    background-image: url("Images/bg_dark.png");
+    color: white;
+}
+.avis {
+	background-color: black;
+}
+.divBtn {
+    margin: auto;
+}
+.btn-contact {
+    color: #ff6702;
+    border-radius: 0%;
+   
 }
 
-/* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) and (max-width: 767.98px) {
-	.menu_lien {
-		padding-right: 0rem;
-		padding-left: 0rem;
-		font-size: 0.75rem;
-	}
-	.logo {
-		font-size: 0.8rem;
-	}
-	.name {
-		font-size: 3rem;
-	}
-	.rewards {
-		font-size: 2rem;
-	}
+.titreHunter {
+    color: #ff6702;
+    
+}
+.titreCapture a {
+    color: black;
 }
 
-/* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width: 991.98px) {
-	.menu_lien {
-		padding-right: 0rem;
-		padding-left: 0rem;
-		font-size: 0.75rem;
-	}
-	.logo {
-		font-size: 1rem;
-	}
-	.name {
-		font-size: 3.75rem;
-	}
-	.rewards {
-		font-size: 1.75rem;
-	}
+/********** Section Hunters **********/
+
+.like {
+    background-color: black;
+    color: #ff6702;
+    
 }
 
-/* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199.98px) {
-	.menu_lien {
-		padding-right: 0.75rem;
-		padding-left: 0.75rem;
-		font-size: 1rem;
-	}
-	.logo {
-		font-size: 1.25rem;
-	}
-	.name {
-		font-size: 4.5rem;
-	}
-	.rewards {
-		font-size: 2rem;
-	}
+/********** Section The Ring **********/
+
+.card {
+	border-width: 0px;
+
+}
+.lib-tab, .lib-gollum {
+	color: black;
+	
 }
 
-/* Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
-	.menu_lien {
-		padding-right: 1.75rem;
-		padding-left: 1.75rem;
-		font-size: 1rem;
-	}
-	.logo {
-		font-size: 1.25rem;
-	}
-	.name {
-		font-size: 5rem;
-	}
-	.rewards {
-		font-size: 2.5rem;
-	}
+
+.table thead th {
+	border-top: 0px solid black;
+	border-bottom: 2px solid #4d4946;
+}
+
+.trait-item {
+    border-bottom: 2px solid darkgrey;
+}
+
+
+.item-tab {
+    color: darkgrey;
+
+}
+
+
+.bg-table {
+    background-color: #dddddd;
+}
+
+.blockquote-footer {
+    font-size: 1.5rem;
+}
+
+.titre-tab {
+    color: black;
+}
+
+/********** Section Army **********/
+
+
+.more {
+    color: #ff6702;
+    font-size: 1.5rem;
+}
+
+.moreLien:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/********** Section Contact **********/
+
+#contact {
+    background-image: url("Images/bg_dark.png");
+}
+
+#object {
+	height: 50px;;
+}
+
+/********** Section Footer **********/
+#pied {
+    background-color: #ff6702;
+    color: white;
+}
+#pied li a {
+    color: white;
+}
+
+#pied a {
+    color: white;
+}
+
+.liste {
+    list-style-type: none;
+}
+
+.forever a:hover {
+    color: #4d4946;
+    text-decoration: none;
 }
